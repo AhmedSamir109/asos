@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
@@ -10,7 +9,7 @@ import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/Register/Register.component';
 import { MenComponent } from './Components/Men/Men.component';
 import { WomenComponent } from './Components/Women/Women.component';
-import { MAccessoriesComponent } from './Components/M-Accessories/M-Accessories.component';  
+import { MAccessoriesComponent } from './Components/M-Accessories/M-Accessories.component';
 import { MShoesComponent } from './Components/M-Shoes/M-Shoes.component';
 import { MClothingComponent } from './Components/M-clothing/M-clothing.component';
 import { MNewInComponent } from './Components/M-NewIn/M-NewIn.component';
@@ -29,8 +28,7 @@ import { ProfileComponent } from './Components/profile/profile.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MenClothingSearchPipe } from './Pipes/men-clothing-search.pipe';
-import { ShoppingCartModule } from './shopping-cart/shopping-cart.module';   
-
+import { ShoppingCartModule } from './shopping-cart/shopping-cart.module';
 
 @NgModule({
   declarations: [
@@ -65,7 +63,7 @@ import { ShoppingCartModule } from './shopping-cart/shopping-cart.module';
     CarouselModule,
     HttpClientModule,
     FormsModule,
-    ShoppingCartModule     
+    ShoppingCartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
